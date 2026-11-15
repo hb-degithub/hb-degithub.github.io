@@ -239,6 +239,15 @@ html:not(.js) .reveal { opacity: 1 !important; transform: none !important; }
   transition: color 0.25s var(--ease);
 }
 
+/* 导航中的站外入口：博客 */
+.nav-external .nav-ext-arrow {
+  color: var(--faint);
+  font-size: 10px;
+  line-height: 1;
+}
+
+.nav-external:hover .nav-ext-arrow { color: var(--accent); }
+
 .nav a:hover .nav-index,
 .nav a[aria-current="location"] .nav-index { color: var(--accent); }
 
@@ -2173,6 +2182,26 @@ html[data-lang="en"] .contact-title {
   border-color: var(--accent);
   color: var(--accent);
 }
+
+/* 联系区：邮箱与博客并排 */
+.contact-links {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 6px 22px;
+}
+
+.blog-link {
+  display: inline-block;
+  margin-top: 16px;
+  color: var(--muted);
+  font-family: var(--font-mono);
+  font-size: clamp(13px, 1.5vw, 16px);
+  line-height: 1.4;
+  transition: color 0.25s var(--ease);
+}
+
+.blog-link:hover { color: var(--accent); }
 
 .contact-actions {
   display: flex;

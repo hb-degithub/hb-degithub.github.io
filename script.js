@@ -38,6 +38,9 @@
       'nav.projects': '项目',
       'nav.about': '关于',
       'nav.contact': '联系',
+      'nav.blog': '博客',
+
+      'a11y.blog': '访问个人博客 hlydwz.com（新窗口打开）',
 
       'hero.title': '把好奇心，<br><span class="accent">写进代码。</span>',
       'hero.lead': '热爱创造的开发者，从全栈应用到自动化工具，把日常里的灵感，变成有温度的数字作品。',
@@ -114,6 +117,7 @@
       'contact.title': '下一个想法，<br><span>一起实现。</span>',
       'contact.lead': '如果你也在做有趣的东西，或只是有一个还没成形的念头，欢迎写信给我。',
       'contact.mail': '写信给我',
+      'contact.blog': '逛逛博客',
       'contact.copy': '复制邮箱',
       'contact.copied': '已复制',
 
@@ -147,6 +151,9 @@
       'nav.projects': 'Projects',
       'nav.about': 'About',
       'nav.contact': 'Contact',
+      'nav.blog': 'Blog',
+
+      'a11y.blog': 'Visit my blog hlydwz.com (opens in a new tab)',
 
       'hero.title': 'Curiosity,<br><span class="accent">written in code.</span>',
       'hero.lead': 'A developer who loves making things — from full-stack apps to automation tools, turning everyday sparks into digital work with warmth.',
@@ -223,6 +230,7 @@
       'contact.title': 'The next idea,<br><span>made together.</span>',
       'contact.lead': 'If you\'re making something interesting — or just have a half-formed idea — write to me.',
       'contact.mail': 'Write to me',
+      'contact.blog': 'Read the blog',
       'contact.copy': 'Copy email',
       'contact.copied': 'Copied',
 
