@@ -9,6 +9,8 @@
 <meta name="author" content="hb" />
 <meta name="theme-color" content="#0a0b09" />
 <link rel="canonical" href="https://hb-degithub.github.io/" />
+<link rel="me" href="https://hlydwz.com" />
+<link rel="me" href="https://github.com/hb-degithub" />
 
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://hb-degithub.github.io/" />
@@ -17,9 +19,35 @@
 <meta property="og:description" content="热爱创造的开发者，从全栈应用到自动化工具，把日常里的灵感，变成有温度的数字作品。" />
 <meta property="og:locale" content="zh_CN" />
 <meta property="og:locale:alternate" content="en_US" />
-<meta name="twitter:card" content="summary" />
+<meta property="og:image" content="https://hb-degithub.github.io/og-image.png" />
+<meta property="og:image:type" content="image/png" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="og:image:alt" content="hb — 把好奇心，写进代码。" />
+<meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:title" content="hb — Developer &amp; Explorer" />
 <meta name="twitter:description" content="热爱创造的开发者，从全栈应用到自动化工具，把日常里的灵感，变成有温度的数字作品。" />
+<meta name="twitter:image" content="https://hb-degithub.github.io/og-image.png" />
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "hb",
+  "alternateName": "hb-degithub",
+  "url": "https://hb-degithub.github.io/",
+  "email": "mailto:670486183@qq.com",
+  "sameAs": [
+    "https://github.com/hb-degithub",
+    "https://hlydwz.com"
+  ],
+  "knowsAbout": ["Full-stack development", "Automation", "Linux", "Docker", "Vue", "Node.js", "Python"],
+  "mainEntityOfPage": {
+    "@type": "ProfilePage",
+    "url": "https://hb-degithub.github.io/"
+  }
+}
+</script>
 
 <link rel="icon" href="favicon.svg" type="image/svg+xml" />
 <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -35,6 +63,8 @@
       var theme = localStorage.getItem('hb-theme');
       if (theme !== 'light' && theme !== 'dark') theme = 'dark';
       root.setAttribute('data-theme', theme);
+      var themeMeta = document.querySelector('meta[name="theme-color"]');
+      if (themeMeta) themeMeta.setAttribute('content', theme === 'light' ? '#f4f2ea' : '#0a0b09');
       var lang = localStorage.getItem('hb-lang');
       if (lang !== 'zh' && lang !== 'en') lang = 'zh';
       root.setAttribute('data-lang', lang);
